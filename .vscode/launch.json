@@ -18,7 +18,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Mocha Test with power-assert",
+      "name": "Mocha Test without power-assert",
       "runtimeExecutable": "npm",
       "runtimeArgs": [
         "run-script",

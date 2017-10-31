@@ -3,7 +3,7 @@
 Step:
 
 1. setBreakpoint at `assert` statement at `index.test.js`
-2. launch `Mocha Test with power-assert` everything is ok.
+2. launch `Mocha Test without power-assert` everything is ok.
 3. launch `Mocha Test`, the breakpoint is move to the first line.
   - it will use [power-assert](https://github.com/power-assert-js/power-assert) to assert.
   - which will use [intelli-espower-loader](https://github.com/power-assert-js/intelli-espower-loader) to transform the test file.
